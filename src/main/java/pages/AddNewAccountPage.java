@@ -75,6 +75,7 @@ public class AddNewAccountPage extends TestBase {
 	}
 
 	public void verifyAccountCreation() {
+		//Assert.assertEquals("wrong page",MANAGE_ACCOUNTS_HEADER_ELEMENT.getText(), "Add New Account");
 		Assert.assertEquals("wrong page", MANAGE_ACCOUNTS_HEADER_ELEMENT.getText(), "Manage Accounts");
 		// Assert.assertEquals("wrong
 		// page",ACCOUNT_CREATED_SUCCESSFULLY_ELEMENT.getText(),"× Account Created

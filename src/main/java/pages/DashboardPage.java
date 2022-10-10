@@ -24,7 +24,8 @@ public class DashboardPage {
 		BANK_CASH_SIDEMENU_ELEMENT.click();
 	}
 
-	public void clickNewAccountSideMenu() {
+	public AddNewAccountPage clickNewAccountSideMenu() {
 		NEWACCOUNT_SIDEMENU_ELEMENT.click();
+		return new AddNewAccountPage(driver);
 	}
 }

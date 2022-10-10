@@ -26,7 +26,7 @@ public class LoginPage {
 	public String enterUserName(String username) {
 		UserName.sendKeys(username);
 		try {
-			Thread.sleep(3000);
+			Thread.sleep(1000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
@@ -36,7 +36,7 @@ public class LoginPage {
 	public void enterPassword(String password) {
 		Password.sendKeys(password);
 		try {
-			Thread.sleep(3000);
+			Thread.sleep(1000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
@@ -45,7 +45,7 @@ public class LoginPage {
 	public void clickSignInButton() {
 		SignInButton.click();
 		try {
-			Thread.sleep(3000);
+			Thread.sleep(1000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
